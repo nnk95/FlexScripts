@@ -1,4 +1,4 @@
-'#Language "WWB.NET"
+﻿'#Language "WWB.NET"
 
 Option Explicit
 
@@ -284,9 +284,12 @@ Debug.Print "Begin pressing motor.."
 Debug.Print "Motor Pressed"
 
 ' wait 1 second
-Debug.Print "Waiting 1 second.."
-     Wait 1
-Debug.Print "End waiting 1 second"
+Debug.Print "Waiting 3 seconds.."
+    Wait 1
+Debug.Print "2.."
+    Wait 1
+Debug.Print "1.."
+    Wait 1
 
 ' release
 Debug.Print "Now releasing Motor.."
@@ -298,3 +301,5 @@ Debug.Print "Motor Released"
      Main
 
 End Sub
+
+
